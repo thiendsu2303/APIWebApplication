@@ -3,7 +3,7 @@ namespace SampleWebApiAspNetCore.Models
 {
     public class QueryParameters
     {
-        private const int maxPageCount = 50;
+        private const int maxPageCount = 40;
         public int Page { get; set; } = 1;
 
         private int _pageCount = maxPageCount;
